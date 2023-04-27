@@ -32,7 +32,7 @@
 
 stdenv.mkDerivation rec {
   pname = "pcsx2";
-  version = "1.7.3331";
+  version = "1.7.4438";
   # nixpkgs-update: no auto update
 
   src = fetchFromGitHub {
@@ -95,7 +95,7 @@ stdenv.mkDerivation rec {
       PC, with many additional features and benefits.
     '';
     homepage = "https://pcsx2.net";
-    maintainers = with maintainers; [ hrdinka govanify ];
+    maintainers = with maintainers; [ hrdinka govanify syboxez ];
 
     # PCSX2's source code is released under LGPLv3+. It However ships
     # additional data files and code that are licensed differently.
